@@ -66,4 +66,6 @@ class Customerdata
                             system.out.println("\n\t Current month readings="+current);
                             system.out.println("\n\t previous month readings="+previous);
                             system.out.println("\n\t Total units="+units);
-                            system.out.println(
+                            system.out.println(\n\t Total bill=RS"+tbill);
+         }
+ }
