@@ -1,0 +1,14 @@
+// SI Area of rectangle
+public class one
+{
+   int a=6;
+}
+public class two extends one
+{
+    int a=7;
+    public static void main(string.args[])
+    {
+         two o=new two():
+         system.out.print(o.a*o.b);
+     }
+ }    
