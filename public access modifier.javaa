@@ -1,0 +1,18 @@
+//public access modifier
+	//save by one.java  
+	  
+	package pack;  
+	public class one{  
+	public void msg(){System.out.println("Hello java");}  
+	}  
+	//save by two.java  
+	  
+	package mypack;  
+	import pack.*;  
+	  
+	class two{  
+	  public static void main(String args[]){  
+	   one obj = new one();  
+	   obj.msg();  
+	  }  
+	}  
