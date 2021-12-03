@@ -25,7 +25,6 @@ else
 System.out.println("THE FILE CANNOT BE READ "); 
 if(f1.canWrite()) 
 System.out.println("WRITE OPERATION IS PERMITTED"); 
-25
 else 
 System.out.println("WRITE OPERATION IS NOT PERMITTED"); 
 if(f1.isDirectory()) 
