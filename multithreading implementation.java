@@ -34,7 +34,6 @@ try
 for (int i = 1; i < 6; i++) 
 { 
 num = r.nextInt(100); 
-27
 System.out.println("Main Thread and Generated Number is " + num); 
 if (num % 3 == 0) 
 { 
